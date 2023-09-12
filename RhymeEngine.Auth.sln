@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeEngine.Auth.Server", "Server\RhymeEngine.Auth.Server.csproj", "{349D88B4-BE74-4DEF-B324-4D58C8EA68F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeEngine.Auth.Client", "Client\RhymeEngine.Auth.Client.csproj", "{368D873C-9DC6-4CC6-AF93-A171658A10BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeEngine.Auth.Shared", "Shared\RhymeEngine.Auth.Shared.csproj", "{3A719D3C-568D-41B0-A75E-819EFC787B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{349D88B4-BE74-4DEF-B324-4D58C8EA68F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349D88B4-BE74-4DEF-B324-4D58C8EA68F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349D88B4-BE74-4DEF-B324-4D58C8EA68F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349D88B4-BE74-4DEF-B324-4D58C8EA68F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368D873C-9DC6-4CC6-AF93-A171658A10BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368D873C-9DC6-4CC6-AF93-A171658A10BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368D873C-9DC6-4CC6-AF93-A171658A10BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368D873C-9DC6-4CC6-AF93-A171658A10BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A719D3C-568D-41B0-A75E-819EFC787B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A719D3C-568D-41B0-A75E-819EFC787B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A719D3C-568D-41B0-A75E-819EFC787B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A719D3C-568D-41B0-A75E-819EFC787B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AFCE80E-0EFA-4B09-B266-6223E701A00C}
+	EndGlobalSection
+EndGlobal

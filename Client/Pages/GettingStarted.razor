@@ -6,152 +6,68 @@
 	<!-- <script src="../assets/js/color-modes.js"></script> -->
 </head>
 <body>
-	<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-		<button
-			class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-			id="bd-theme"
-			type="button"
-			aria-expanded="false"
-			data-bs-toggle="dropdown"
-			aria-label="Toggle theme (auto)">
-			<svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-				<use href="#circle-half"></use>
-			</svg>
-			<span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-		</button>
-		<ul
-			class="dropdown-menu dropdown-menu-end shadow"
-			aria-labelledby="bd-theme-text">
-			<li>
-				<button
-					type="button"
-					class="dropdown-item d-flex align-items-center"
-					data-bs-theme-value="light"
-					aria-pressed="false">
-					<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-						<use href="#sun-fill"></use>
-					</svg>
-					Light
-					<svg class="bi ms-auto d-none" width="1em" height="1em">
-						<use href="#check2"></use>
-					</svg>
-				</button>
-			</li>
-			<li>
-				<button
-					type="button"
-					class="dropdown-item d-flex align-items-center"
-					data-bs-theme-value="dark"
-					aria-pressed="false">
-					<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-						<use href="#moon-stars-fill"></use>
-					</svg>
-					Dark
-					<svg class="bi ms-auto d-none" width="1em" height="1em">
-						<use href="#check2"></use>
-					</svg>
-				</button>
-			</li>
-			<li>
-				<button
-					type="button"
-					class="dropdown-item d-flex align-items-center active"
-					data-bs-theme-value="auto"
-					aria-pressed="true">
-					<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-						<use href="#circle-half"></use>
-					</svg>
-					Auto
-					<svg class="bi ms-auto d-none" width="1em" height="1em">
-						<use href="#check2"></use>
-					</svg>
-				</button>
-			</li>
-		</ul>
-	</div>
-
 	<div class="col-lg-8 mx-auto p-4 py-md-5">
 		<header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-			<a
-				href="/"
+			<a href="/"
 				class="d-flex align-items-center text-body-emphasis text-decoration-none">
 				<span class="fs-4">Getting Started</span>
 			</a>
 		</header>
 
 		<main>
-			<h1 class="text-body-emphasis">Misson</h1>
 			<p class="fs-5 col-md-8">
-				Quickly and easily get started with Rhyme Engine. Use it to streamline
-				your musical journey, from the first lyric to the final master track,
-				and beyond. Securely manage your catalog (IP) from one place across a
-				variety of devices.
+				Quickly and easily get started with Rhyme Engine.  
+				<ol>
+				<li>Use it to streamline
+					your musical journey, from the first lyric to the final master track,
+					and beyond.</li>
+				<li>Securely manage your catalog (IP) from one place across a
+					variety of devices.</li>
+				</ol>
 			</p>
 
-			<hr class="col-3 col-md-2 mb-5" />
+			<hr class="col-3 col-md-12 mb-5" />
 
 			<div class="row g-5">
 				<div class="col-md-12">
-					<h2 class="text-body-emphasis">Become a member</h2>
-					<p>Ready to go beyond the landing page?</p>
+					<p class="text-warning">Ready to go beyond the landing page?</p>
+					<h2 class="text-info">Register an Account</h2>
 
-							<h2 class="accordion-header" id="headingOne">
-								1. Register an Account
-							</h2>
-
-							<ol>
-								<li>
-									Open your web browser and navigate to the
-									<a href="https://rhymeengine-v1.azurewebsites.net/"
-										>https://rhymeengine-v1.azurewebsites.net/</a
-									>.
-								</li>
-								<li>Click on the "Register" link in the navigation bar.</li>
-							</ol>
-
-							<span class="oi oi-user" aria-hidden="true"></span>
-
-							<ol start="3">
-								<li>
+					<ol>
+						<li>Click on the "Register" link in the navigation bar.</li>
+						<li>
 									Fill in the required information, including your email
 									address and password. Make sure to provide a strong
 									password.
 								</li>
 								<li>Click the "Register" button.</li>
-							</ol>
+					</ol>
 
-						</div>
+					<hr class="col-3 col-md-12 mb-5" />
 					
-							<h2 class="accordion-header" id="headingTwo">
-									2. Verify Your Email
-							</h2>
+					<!-- <h2 class="text-info">Verify Your Email</h2>
 
-									<ol>
-										<li>
-											After registering, you'll receive an email with a
-											verification link. Open your email inbox and find the
-											verification email from Rhyme Engine.
-										</li>
-										<li>
-											Click the verification link to confirm your email address.
-										</li>
-									</ol>
+					<ol>
+						<li>
+							After registering, you'll receive an email with a
+							verification link. Open your email inbox and find the
+							verification email from Rhyme Engine.
+						</li>
+						<li>
+							Click the verification link to confirm your email address.
+						</li>
+					</ol> -->
 
 
 				
-							<h2 class="accordion-header" id="headingThree">
-									3. Log In to Your Account
+							<h2 class="text-info" id="headingThree">
+									Log In to Your Account
 							</h2>
 									<ol>
-										<li>
-											Once your email is verified, return to the
-											<a href="https://rhymeengine-v1.azurewebsites.net/"
-												>https://rhymeengine-v1.azurewebsites.net/</a>.
-										</li>
 										<li>Click on the "Log In" link in the navigation bar.</li>
 									</ol>
-
-									<span class="oi oi-account-login" aria-hidden="true"> </span>
+									<hr class="col-3 col-md-12 mb-5" />
+				</div>
 			</div>
 
 			<!-- <h3>Step 4: Forgot Password</h3>
